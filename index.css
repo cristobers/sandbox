@@ -12,10 +12,10 @@
 
 .window {
     background-color: gray;
-    padding: 2em;
+    padding: 2em:
     border-style: outset;
     margin-left: auto;
-    margin-right auto;
+    margin-right: auto;
 }
 
 .commentbox {
