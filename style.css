@@ -1,24 +1,19 @@
 .centerbox {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   
   
   border-style: solid;
-  border-color: black;
+  border-color: lightgray;
+  border-width: 3px 3px 3px 3px ;
   padding-left: 6em;
   padding-right: 6em;
+  padding-top: 0em;
+  padding-bottom: 2em;
 }
-
-.maintitle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
- }
-
 
 .window {
     background-color: gray;
@@ -30,14 +25,15 @@
 
 
 .normaltext {
-    text-align: center;
-	font-size: 30px;
+    text-align: left;
+	font-size: 45px;
     font-family: Arial, sans-serif;
 }
 
 .subtext {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+    text-align: left;
+	font-family: Arial, sans-serif;
 }
 
 .smallsubtext {
@@ -87,5 +83,10 @@ greybuttons {
 
 
 h1 {
-    color: yellow;
+    color: white;
+}
+
+p {
+	color: lightgray;
+	
 }
