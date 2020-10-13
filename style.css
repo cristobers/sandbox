@@ -4,40 +4,13 @@
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
-
+  
+  
+  border-style: solid;
+  border-color: black;
+  padding-left: 6em;
+  padding-right: 6em;
 }
-
-
-.css-selector {
-    background: linear-gradient(335deg, #0099ff, #ff6600);
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 11s ease infinite;
-    -moz-animation: AnimationName 11s ease infinite;
-    -o-animation: AnimationName 11s ease infinite;
-    animation: AnimationName 11s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-
-
 
 .maintitle {
     display: block;
@@ -55,21 +28,24 @@
     margin-right: auto;
 }
 
-.commentbox {
-    background-color: darkgray;
-    padding: 2em;
-    border-style: outset;
-}
 
 .normaltext {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+    font-family: Arial, sans-serif;
 }
 
-.bigtext {
+.subtext {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.smallsubtext {
+	font-size: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 
 body {
     background: linear-gradient(335deg, #0099ff, #ff6600);
